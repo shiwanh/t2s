@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>HTML reference</title>
+</head>
+<body>
+<FONT color="#67d5ff"><font size="20">Universiteter i Norge</font></FONT>
+</body>
+
+<head>
+<body background="http://www.fullhdwpp.com/wp-content/uploads/Mannheim_University_at_night_www.FullHDWpp.com_.jpg?x69613">
+</head>
+<body>
+<p><FONT color="#67d5ff">Server Info: {{.Count}} sekunder</p></FONT>
+<p><FONT color="#67d5ff">Server IP : {{.ServerIP}}</p></FONT>
+<p><FONT color="#67d5ff">Mest kjente Universiteter i Norge: <a href = "http://158.37.63.127:1122/?place=uio">UIO<a/> &nbsp <a href="http://localhost:1122/?place=uia">UIA</a>&nbsp<a href="http://localhost:1122/?place=uib">UIB</a></FONT>
+
+
+<form action="/">
+<FONT color="#67d5ff">Søk Universiteter i Norge <input type="text" name="place" placeholder="Søk">
+<input type="submit" value="Søk!"></FONT>
+
+    </form>
+    <iframe
+            width="100%"
+            height="70%"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDxwGLdsYA1zvYqq_HzkoaLNLnr7uE4OII
+            &q={{.MapData}}"allowfullscreen>
+    </iframe>
+</body>
+</html>
